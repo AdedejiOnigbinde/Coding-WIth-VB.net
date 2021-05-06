@@ -12,7 +12,7 @@ Module MultiplesOfThree
 
     '3cii
         Do 
-            If (count % 3 = 0) Then
+            If (count Mod 3 = 0) Then
                 sum+=count
             End If
             count++

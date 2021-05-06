@@ -16,10 +16,10 @@ Module Addition
         
         '2bii
          Do
-            If (count % 2 = 0) Then 
+            If (count Mod 2 = 0) Then 
                 sum += count
             End If
-            count ++
+            count++
         Loop Until count <= 100
         Console.WriteLine("The Sum Is: " & sum)
 
