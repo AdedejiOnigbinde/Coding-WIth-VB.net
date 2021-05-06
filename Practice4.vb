@@ -7,7 +7,7 @@ Module Addition
         Dim count As Integer = 0
         Dim sum As Integer = 0
         Do
-            If (count % 2 = 0) Then 
+            If (count Mod 2 = 0) Then 
                 sum += count
             End If
             count ++
